@@ -13,7 +13,7 @@ body{
 .container{
   width: 75%;
   margin:auto;
-  padding: inherit;
+  overflow: hidden;
 }
 
 header{
@@ -25,6 +25,10 @@ header{
   padding-top: 5px;
 }
 
+header ul{
+  padding-left: 0
+}
+
 header a{
   color: #b1af9f;
   font-size: 16px;
@@ -34,9 +38,14 @@ header a{
 }
 
 header li{
-  float:3px;
   display: inline;
-  padding: 0 20px 0 20px
+  padding: 5px 1.5vw 0 1.5vw
+}
+
+@media screen and (max-width: 300px){
+  header li{
+    padding: 500px 0.5vw 0.5vw
+  }
 }
 
 .current{
@@ -77,17 +86,44 @@ header a:hover{
   color: #c4b466
 }
 
+#home-showcase h3{
+  font-size: 0
+}
+
+@media screen and (max-width: 767px){
+  #home-showcase h1{
+    font-size: 0
+  }
+  
+  #home-showcase h2{
+    font-size: 0
+  }
+  
+  #home-showcase h3{
+    color: #fff;
+    font-size: 15vw;
+    letter-spacing: 3vw;
+    padding-top: 0.5em;
+    font-family: 'Raleway', sans-serif;
+    text-align: center
+  }
+  
+  #home-headline{
+    margin-top: 0
+  }
+}
+
 #home-headline{
   color: #c4b466;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   padding: 40px 0 0 5vw;
 }
 
 #home-closingline{
   color: #c4b466;
   font-family: 'Oswald', sans-serif;
-  font-size: 40px;
+  font-size: 38px;
   padding: 0 10vw 0 0;
   text-align: right;
 }
@@ -116,12 +152,13 @@ header a:hover{
   float: left;
   width: 30%;
   text-align: center;
-  padding: 0 15px 0 15px;
+  padding: 0 15px;
 }
 
 @media screen and (max-width: 1204px){
   .box{
-    width: 100%
+    width: 100%;
+    padding: 0
   }
 }
 
@@ -254,6 +291,17 @@ footer a:hover{
   margin: 0;
   line-height: 1;
   text-shadow: 4px 4px 6px #c4b466;
+}
+
+@media screen and (max-width: 500px){
+  #moments-headline{
+    font-size: 80px;
+    padding-top: 50px
+  }
+
+  #moments-closingline{
+    font-size: 32px;
+  }
 }
 
 .container2{
