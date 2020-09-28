@@ -155,7 +155,7 @@ header a:hover{
   padding: 0 15px;
 }
 
-@media screen and (max-width: 1216px){
+@media screen and (max-width: 1186px){
   .box{
     width: 100%;
     padding: 0
