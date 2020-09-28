@@ -1,0 +1,283 @@
+body{
+  font-size: 100%;
+  font-family: 'Verdana', sans-serif;
+  color: #b1af9f;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  box-sizing: border-box;
+  letter-spacing: 1.2px
+}
+
+.container{
+  width: 75%;
+  margin:auto;
+  padding: inherit;
+}
+
+header{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  line-height: 1;
+  padding-top: 5px;
+}
+
+header a{
+  color: #b1af9f;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header li{
+  float:3px;
+  display: inline;
+  padding: 0 20px 0 20px
+}
+
+.current{
+  font-weight: bold;
+  color: #c4b466
+}
+
+header a:hover{
+  font-weight: bold;
+  color: #c4b466
+}
+
+#home-showcase{
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 0.3vw;
+  text-align: center;
+  line-height: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url('../img/backgroundimg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%
+}
+
+#home-showcase h1{
+  color: #fff;
+  font-size: 6vw;
+  letter-spacing: 2.5vw;
+  padding-top: 1.75em
+}
+
+#home-showcase h2{
+  font-size: 2vw;
+  padding-bottom: 5em;
+  color: #c4b466
+}
+
+#home-headline{
+  color: #c4b466;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding: 40px 0 0 5vw;
+}
+
+#home-closingline{
+  color: #c4b466;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  padding: 0 10vw 0 0;
+  text-align: right;
+}
+
+.subtitle{
+  color:#84742c;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  letter-spacing: 6px;
+  text-align: center;
+  display: table;
+  margin: auto;
+  border-bottom: #3c4432 solid 2px;
+  border-radius: 10px;
+  clear: both;
+  padding-top: 60px
+}
+
+#home-boxes{
+  margin-top: 20px;
+  padding-top: 30px
+}
+
+.box{
+  font-size: 15px;
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 0 15px 0 15px;
+}
+
+@media screen and (max-width: 1204px){
+  .box{
+    width: 100%
+  }
+}
+
+h4{
+  color:#c4b466
+}
+
+footer{
+  color: #fff;
+  clear: both;
+  padding: 15px 0
+}
+
+footer div{
+  text-align: center;
+}
+
+footer a img{
+  vertical-align: middle;
+}
+
+footer span{
+  vertical-align: middle;
+}
+
+footer a{
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+  color: #c4b466
+}
+
+.clubs-centerimg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 60px;
+  max-width: 100%;
+  height: auto;
+}
+
+#clubs-headline{
+  color: #c4b466;
+  font-size: 40px;
+  margin-bottom: 0;
+  margin-top: 100px
+}
+
+#clubs-text{
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+#clubs-worldimg{
+  padding: 5px 0
+}
+
+#clubs-padding{
+  margin-bottom: 50px
+}
+
+.clubs-list{
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 5px 0;
+  text-align: center;
+  width: 33.3%;
+  display: inline;
+  float: left;
+}
+
+#clubs-aac, #clubs-youth{
+  background-color: #131106;
+}
+#clubs-celtic, #clubs-ukrainian{
+  background-color: #27230c;
+}
+#clubs-desi, #clubs-russian{
+  background-color: #3a3412;
+}
+#clubs-egyptian, #clubs-korean{
+  background-color: #4e4618;
+}
+#clubs-filipino, #clubs-kavkaz{
+  background-color: #61571f;
+}
+#clubs-fubu, #clubs-jewish{
+  background-color: #746825;
+}
+#clubs-greek, #clubs-italian{
+  background-color: #887a2b;
+}
+#clubs-hispanic{
+  background-color: #9b8b31;
+}
+
+@media screen and (max-width: 980px){
+  .clubs-list{
+    width: 50%
+  }
+}
+
+@media screen and (max-width: 660px){
+  .clubs-list{
+    width: 100%
+  }
+}
+
+#moments-headline{
+  font-size: 150px;
+  font-family: 'Oswald', sans-serif;
+  color: #c4b466;
+  text-align: center;
+  padding: 100px 0 0 0;
+  margin: 0;
+  letter-spacing: 15px;
+  line-height: 1;
+}
+
+#moments-closingline{
+  font-size: 60px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 4px 4px 6px #c4b466;
+}
+
+.container2{
+  width: 100%;
+  margin: auto;
+  padding: inherit;
+}
+
+.img-box{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+@media screen and (max-width: 820px){
+  .img-box{
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 450px){
+  .img-box{
+    width: 100%;
+    float: none;
+  }
+}
